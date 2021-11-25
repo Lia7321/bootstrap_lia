@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <link rel="stylesheet" href="css/all.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Dashboard Kit</title>
+</head>
+<body>        
+    <!-- Header -->
+    <header>
+        <div class="container-fluid">
+            <div class="header-row">
+                <div class="left-headtitle">
+                    <a href="javascript:void(0);" class="open-sidebar"><i class="far fa-bars"></i></a>
+                    <a href="index.html" class="mobilelogo"><img src="images/mini-logo.png" alt=""></a>
+                    <h1>Overview</h1>
+                </div>
+                <div class="right-headmenu">
+                    <ul class="rightheadm">
+                        <li><a href="#"><i class="far fa-search"></i></a></li>
+                        <li><a href="#" class="notify-bx"><i class="fas fa-bell"></i><span></span></a></li>
+                        <li class="dropdown"><a href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" class="profile-drop dropdown-toggle"><span>Jones Ferdinand</span> <div class="proimgbx"><img src="images/user-img.png" alt=""></div></a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Settings</a></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Left Sidebar -->
+    <aside class="leftbar">
+        <div class="left-logobx">
+            <a href="index.html"><img src="images/logo.svg" alt=""></a>
+        </div>
+
+        <a href="javascript:void(0);" class="close-bx"><i class="fal fa-times-circle"></i></a>
+
+        <div class="leftbar-menu">
+            <ul>
+                <li class="active"><a href="#"><img src="images/menu-ic1.svg" alt=""> Overview</a></li>
+                <li><a href="#"><img src="images/menu-ic2.svg" alt=""> Tickets</a></li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="images/menu-ic3.svg" alt=""> Ideas</a></li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2"><img src="images/menu-ic4.svg" alt=""> Contacts</a></li>
+                <li><a href="#"><img src="images/menu-ic5.svg" alt=""> Agents</a></li>
+                <li><a href="#"><img src="images/menu-ic6.svg" alt=""> Articles</a></li>
+                <li class="spretbx"></li>
+                <li><a href="#"><img src="images/menu-ic7.svg" alt=""> Settings</a></li>
+                <li><a href="#"><img src="images/menu-ic8.svg" alt=""> Subscription</a></li>
+            </ul>
+        </div>
+    </aside>
+    <!-- End Left Sidebar -->
+
+    <!-- Main Wrapper -->
+    <section class="main-wrapper">
+        <div class="container-fluid">
+            <div class="dashboard-count-row">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <a href="#"><div class="dash-block">
+                            <h6>Unresolved</h6>
+                            <h2>60</h2>
+                        </div></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <a href="#"><div class="dash-block">
+                            <h6>Overdue</h6>
+                            <h2>16</h2>
+                        </div></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <a href="#"><div class="dash-block">
+                            <h6>Open</h6>
+                            <h2>43</h2>
+                        </div></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <a href="#"><div class="dash-block">
+                            <h6>On hold</h6>
+                            <h2>64</h2>
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trands-rowbx">
+                <div class="trands-leftbx">
+                    <div class="trand-hed">
+                        <div class="trand-hedleft">
+                            <h3>Today’s trends </h3>
+                            <p>as of 25 May 2019, 09:41 PM</p>
+                        </div>
+                        <div class="trand-hedright">
+                            <ul>
+                                <li class="active"><a href="#">Today</a></li>
+                                <li><a href="#">Yesterday</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="graph-box">
+                        <img src="images/grap-img.svg" alt="">
+                    </div>
+                </div>
+                <div class="trands-rightbx">
+                    <ul>
+                        <li>
+                            <h6>Resolved</h6>
+                            <h4>449</h4>
+                        </li>
+                        <li>
+                            <h6>Received</h6>
+                            <h4>426</h4>
+                        </li>
+                        <li>
+                            <h6>Average first response time</h6>
+                            <h4>33m</h4>
+                        </li>
+                        <li>
+                            <h6>Average response time</h6>
+                            <h4>3h 8m</h4>
+                        </li>
+                        <li>
+                            <h6>Resolution within SLA</h6>
+                            <h4>94%</h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="last-listed-block">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="comn-block">
+                            <div class="listed-head">
+                                <div class="name-bx">
+                                    <h3>Unresolved tickets</h3>
+                                    <h6>Group: <span>Support</span></h6>
+                                </div>
+                                <div class="view-morebx">
+                                    <a href="#">View details</a>
+                                </div>
+                            </div>
+
+                            <div class="ticket-table">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td>Waiting on Feature Request</td>
+                                            <td>4238</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Awaiting Customer Response</td>
+                                            <td>1005</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Awaiting Developer Fix</td>
+                                            <td>914</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pending</td>
+                                            <td>281</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="comn-block">
+                            <div class="listed-head">
+                                <div class="name-bx">
+                                    <h3>Tasks</h3>
+                                    <h6>Today</h6>
+                                </div>
+                                <div class="view-morebx">
+                                    <a href="#">View all</a>
+                                </div>
+                            </div>
+
+                            <div class="ticket-table task-table">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td><span>Create new task</span></td>
+                                            <td><a href="#"><img src="images/add-ic.svg" alt=""></a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="customecheck">
+                                                    <input class="styled-checkbox" id="check1" type="checkbox" value="value1">
+                                                    <label for="check1">Finish ticket update</label>
+                                                </div>
+                                            </td>
+                                            <td><h6 class="urgent-lbl">Urgent</h6></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="customecheck">
+                                                    <input class="styled-checkbox" id="check2" type="checkbox" value="value1">
+                                                    <label for="check2">Create new ticket example</label>
+                                                </div>
+                                            </td>
+                                            <td><h6 class="new-lbl">NEw</h6></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="customecheck">
+                                                    <input class="styled-checkbox" id="check3" type="checkbox" value="value1">
+                                                    <label for="check3">Update ticket report</label>
+                                                </div>
+                                            </td>
+                                            <td><h6>Default</h6></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Main Wrapper -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

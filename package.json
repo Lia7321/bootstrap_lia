@@ -1,0 +1,16 @@
+{
+  "name": "lia_park_bootstrap",
+  "version": "4.0.0",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "keywords": [],
+  "author": "Lia_Park",
+  "license": "ISC",
+  "main": "index.js",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
